@@ -7,7 +7,7 @@ import Certifications from "./Certifications";
 import Missing from "./Missing";
 import Footer from "./Footer";
 import { Route, Switch } from "react-router-dom";
-import { useState } from "react";
+import { useState, useEffect } from "react";
 
 function App() {
   const [count, setCount] = useState(0);
